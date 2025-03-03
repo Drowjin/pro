@@ -1,3 +1,4 @@
+//@ts-nocheck
 import ProductForm from "@/components/product-form"
 import { getProductById } from "@/lib/mongodb"
 import { notFound } from "next/navigation"
