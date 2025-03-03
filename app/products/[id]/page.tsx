@@ -35,7 +35,7 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
               <h1 className="text-3xl font-bold">{product.name}</h1>
               <p className="text-muted-foreground">{product.category}</p>
             </div>
-            <p className="text-2xl font-bold">${product.price.toFixed(2)}</p>
+            <p className="text-2xl font-bold">{product.price.toFixed(2)}</p>
           </div>
 
           <div className="pt-4 border-t">
